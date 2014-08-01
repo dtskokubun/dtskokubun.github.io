@@ -17,24 +17,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   
 <script>
-<!-- 基本の設定 -->
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<!-- クロスドメインのテスト用に編集 -->
-<!-- 
-  ga('create', 'UA-53300056-2', 'auto');
--->
   ga('create', 'UA-53300056-2','auto', {'allowLinker': true}); 
   ga('require', 'linker'); 
   ga('linker:autoLink', ['127.0.0.1'] );
-
-<!-- クロスドメインのテスト用に編集 END-->
-
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
+
+</script>
+
+<!-- eコマースの設定 -->
+<script>
 
 </script>
   </head>
